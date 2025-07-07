@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <string.h>
+int main() { 
+    char nome[100];
+    int idade;
+    char genero[1];
+    char cpf[11];
+    int telefone;
+    char email[50];
+    float peso;
+    
+    printf("digite seu completo: ");
+    fgets(nome,sizeof(nome),stdin);
+    
+    printf("digite sua idade: ");
+ scanf("%d",&idade);
+ 
+ printf("digite seu gênero f ou m: ");
+ scanf("%s", genero);
+ 
+ printf("digite seu cpf: ");
+ scanf("%s", cpf);
+ 
+ printf("número de telefone: ");
+ scanf("%d",&telefone);
+ 
+ printf("digite seu e-mail: ");
+ scanf("%s", email);
+ 
+ printf("digite sua altura: ");
+ scanf("%f",&peso);
+ 
+ 
+ printf("\nSeus Dados Pessoais São :\nnome: %s\nidade: %d\ngênero: %s\ncpf: %s\ntelefone: %d\n e-mail: %s\naltura: %.2f\n", nome,idade,genero,cpf,telefone,email,peso);
+ 
+    return 0 ;
+    
+}
