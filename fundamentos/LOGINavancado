@@ -3,13 +3,13 @@
 int main() { 
     char nome[100];
     int idade;
-    char genero[1];
+    char genero;
     char cpf[11];
-    int telefone;
+    char telefone[50];
     char email[50];
     float peso;
     
-    printf("digite seu completo: ");
+    printf("digite seu nome completo: ");
     fgets(nome,sizeof(nome),stdin);
     
     printf("digite sua idade: ");
@@ -22,7 +22,7 @@ int main() {
  scanf("%s", cpf);
  
  printf("número de telefone: ");
- scanf("%d",&telefone);
+ scanf("%s", telefone);
  
  printf("digite seu e-mail: ");
  scanf("%s", email);
@@ -31,7 +31,7 @@ int main() {
  scanf("%f",&peso);
  
  
- printf("\nSeus Dados Pessoais São :\nnome: %s\nidade: %d\ngênero: %s\ncpf: %s\ntelefone: %d\n e-mail: %s\naltura: %.2f\n", nome,idade,genero,cpf,telefone,email,peso);
+ printf("\nSeus Dados Pessoais São :\nnome: %s\nidade: %d\ngênero: %s\ncpf: %s\ntelefone: %s\n e-mail: %s\naltura: %.2f\n", nome,idade,genero,cpf,telefone,email,peso);
  
     return 0 ;
     
