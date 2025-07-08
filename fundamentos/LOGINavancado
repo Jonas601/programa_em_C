@@ -19,10 +19,10 @@ int main() {
  printf("digite seu gênero f ou m: ");
  scanf(" %c", &genero);
  
- printf("digite seu cpf: ");
+ printf("digite seu cpf(apenas número): ");
  scanf("%s", cpf);
  
- printf("número de telefone: ");
+ printf("número de telefone(apenas número): ");
  scanf("%s", telefone);
  
  printf("digite seu e-mail: ");
