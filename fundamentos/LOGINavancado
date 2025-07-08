@@ -5,9 +5,10 @@ int main() {
     int idade;
     char genero;
     char cpf[12];
-    char telefone[50];
+    char telefone[30];
     char email[50];
     float peso;
+    float altura;
     
     printf("digite seu nome completo: ");
     fgets(nome,sizeof(nome),stdin);
@@ -27,18 +28,21 @@ int main() {
  printf("digite seu e-mail: ");
  scanf("%s", email);
  
- printf("digite sua altura: ");
+ printf("digite seu peso: ");
  scanf("%f",&peso);
  
+ printf("digite sua altura: ");
+ scanf("%f",&altura);
  
    printf("\nSeus Dados Pessoais São:\n");
-    printf("Nome: %s\n", nome);
-    printf("Idade: %d anos \n ", idade);
-    printf("Gênero: %c\n", genero);
-    printf("CPF: %s\n", cpf);
-    printf("Telefone: %s\n", telefone);
-    printf("E-mail: %s\n", email);
-    printf("peso: %.2f kg \n ", peso);
+    printf("\nNome: %s\n", nome);
+    printf("\nIdade: %d anos \n ", idade);
+    printf("\nGênero: %c\n", genero);
+    printf("\nCPF: %s\n", cpf);
+    printf("\nTelefone: %s\n", telefone);
+    printf("\nE-mail: %s\n", email);
+    printf("\npeso: %.2f kg \n ", peso);
+    printf("\naltura: %.2f metros\n",altura);
  
     return 0 ;
     
