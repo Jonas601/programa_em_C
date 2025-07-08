@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-int main(){
+int main(){//definição de variaveis
     int a;
     int b;
     
@@ -19,5 +19,4 @@ int main(){
     if( a < b){
         printf("o primeiro valor é menor que o segundo: %d , %d",a,b);
     }
-    
 }
