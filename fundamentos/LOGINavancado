@@ -4,7 +4,7 @@ int main() {
     char nome[100];
     int idade;
     char genero;
-    char cpf[11];
+    char cpf[12];
     char telefone[50];
     char email[50];
     float peso;
@@ -16,7 +16,7 @@ int main() {
  scanf("%d",&idade);
  
  printf("digite seu gênero f ou m: ");
- scanf("%s", genero);
+ scanf(" %c", &genero);
  
  printf("digite seu cpf: ");
  scanf("%s", cpf);
@@ -31,7 +31,14 @@ int main() {
  scanf("%f",&peso);
  
  
- printf("\nSeus Dados Pessoais São :\nnome: %s\nidade: %d\ngênero: %s\ncpf: %s\ntelefone: %s\n e-mail: %s\naltura: %.2f\n", nome,idade,genero,cpf,telefone,email,peso);
+   printf("\nSeus Dados Pessoais São:\n");
+    printf("Nome: %s\n", nome);
+    printf("Idade: %d anos \n ", idade);
+    printf("Gênero: %c\n", genero);
+    printf("CPF: %s\n", cpf);
+    printf("Telefone: %s\n", telefone);
+    printf("E-mail: %s\n", email);
+    printf("peso: %.2f kg \n ", peso);
  
     return 0 ;
     
