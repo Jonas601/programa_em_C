@@ -1,18 +1,20 @@
 #include <stdio.h>
-#define idade_minima 18
+#define idade_minima 18 //constante
 int main(){
-    int idade;
+    int idade; //variavel
 printf("digite a idade:  ");
 scanf("%d", &idade);
 
-    if (idade >= 18) {
-        printf("\n maior de idade");
-    
-        if (idade >= 60) {
-        printf(" e idoso\n");
+    if (idade >= idade_minima) { //condição 01
+        if (idade > 60) { //condição 02
+        printf("maior de idade e idoso\n");
+        }
+        else {
+           printf("maior de idade");
+            
         }
     }
- else{
+ else{ //condição 03
     printf("menor de idade");
 }
 
