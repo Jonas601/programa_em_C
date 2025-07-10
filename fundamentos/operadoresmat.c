@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <math.h>
-int main(){//definição de variaveis
+int main(){//definição de variaveis matematicas
     int a;
     int b;
     
     printf("digite o primeiro numero: ");
     scanf("%d",&a);
-    
+                                   //demonstrar campos ao usuario
     printf("digite o segundo numero: ");
     scanf("%d",&b);
     
@@ -19,6 +19,8 @@ int main(){//definição de variaveis
     if( a < b){
         printf("o primeiro valor é menor que o segundo: %d , %d",a,b);
     }
+    
+    return 0;
 }
 #include <stdio.h>
 

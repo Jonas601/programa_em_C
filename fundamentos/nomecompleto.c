@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <string.h>
+#include <stdio.h> //vem a palavra reservada printf e scanf
+#include <string.h> // vem a palavra reservada fgets
  int main(){
      char nomecompleto[20];
      char apelido[10];
@@ -7,7 +7,7 @@
      float altura;
      
      printf("digite seu nome completo: ");
-     fgets(nomecompleto,sizeof(nomecompleto), stdin);
+     fgets(nomecompleto,sizeof(nomecompleto), stdin); //pegar nomes completos
     
     printf("digite seu apelido: ");
     scanf("%s", apelido);

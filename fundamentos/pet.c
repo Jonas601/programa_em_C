@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main (){
 int pet_idade = 4;
-char inicial_pet_nome = 'b';
+char inicial_pet_nome = 'b';//dados do pet(importante declara como "pet para especifica e algum momento entrada de dados do dono")
 char pet_nome[10] = "bolt";
 float pet_peso = 12.3;
 float pet_altura = 0.45;
