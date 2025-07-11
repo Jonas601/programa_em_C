@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main(){
-    int numero,x;
+    int numero,x;//variaveis declara
      
     printf("digite um valor de 1 a 10: ");
-    scanf("%d",&numero);
+    scanf("%d",&numero);//campo para receber a variavel numero
     
-    for(x = 1;x <= 50 ; x+=2){
-        int result = numero*x;
-        printf("\n%d x %d = %d",numero,x,result);
+    for(x = 1;x <= 50 ; x+=2){//devlarando valor de 'X' uma das variaveis
+        int result = numero*x;//opreção mátematica
+        printf("\n%d x %d = %d",numero,x,result);//demonstrar o resultado para o usuario
     }
     
 }
