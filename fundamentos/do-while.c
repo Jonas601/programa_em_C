@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int number,par = 0, x =0;
+    int number,par = 0, x =0;//mesma coisa de apenas while so que com do 
     
     
     do {
@@ -13,7 +13,7 @@ int main() {
         }
        x++; 
     } 
-       while( x < 10);
+       while( x < 10);//presença de while  depois do do
        printf("quantidade de pares %d ",par);
     return 0;
 }
