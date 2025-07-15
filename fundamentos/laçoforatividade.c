@@ -7,7 +7,7 @@ int main() {// declarando variaveis incluse pares caso use for
     // Solicita ao usuário 10 números aqui!
     printf("Digite 10 números inteiros:\n");
 
-    for (int i = 0; i < 10; i++) {//limite de números que o usuario deve inserir
+    for (int numero = 0; numero < 10; numero++) {//limite de números que o usuario deve inserir
         printf("Número %d: ", i + 1);//printf para definir a quantidade de números que o usuario vai digitar
         scanf("%d", &numero);//resgatar esse número com scanf no for
 
