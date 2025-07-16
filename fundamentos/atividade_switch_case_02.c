@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 int main() { 
-    float x;
-    float y; 
+    float x,y;
     int opcao = 1;
     
     while(opcao != 0){
