@@ -8,12 +8,7 @@ int main() {
     int opcao = 1;
     
     while(opcao != 0){
-        printf("\n>>> Digite o dois números que deseja realizar a operação <<<\n");
-            printf("\nDigite o 1° valor: \n");
-             scanf("%d",&x);
-            printf("\nDigite o 2° valor: \n");
-             scanf("%d",&y);
-        
+         
         printf("\n======   Calculadora Básica    ======\n");
         printf("\nO que deseja fazer com os dois números escolhidos?\n");
         printf("\n1 - soma\n");
@@ -23,6 +18,15 @@ int main() {
         printf("\n0 - sair da calculadora\n");
         printf("\n escolha uma das opções\n");
         scanf("%d",&opcao);
+         
+        if(opcao >= 1 && opcao <= 4){
+        
+        printf("\n>>> Digite o dois números que deseja realizar a operação <<<\n");
+            printf("\nDigite o 1° valor: \n");
+             scanf("%d",&x);
+            printf("\nDigite o 2° valor: \n");
+             scanf("%d",&y);
+        }
         switch(opcao){
             case 1:
              printf("  ______________________________________");
