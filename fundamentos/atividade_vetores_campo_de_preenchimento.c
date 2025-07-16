@@ -13,7 +13,7 @@ int main() {
     // para exibir os valores armazenados com for
     printf("\nOs números digitados foram:\n");
     for(valor = 0; valor < 5; valor++) {
-        printf("%d ", numeros[valor]);
+        printf("\nposição %d ; valor: %d ",valor, numeros[valor]);
     }
 
     printf("\n");
