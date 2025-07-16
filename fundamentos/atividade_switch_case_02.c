@@ -2,9 +2,8 @@
 #include <stdio.h>
 
 int main() { 
-    int x;
-    int y; 
-    int num;
+    float x;
+    float y; 
     int opcao = 1;
     
     while(opcao != 0){
@@ -23,29 +22,29 @@ int main() {
         
         printf("\n>>> Digite o dois números que deseja realizar a operação <<<\n");
             printf("\nDigite o 1° valor: \n");
-             scanf("%d",&x);
+             scanf("%f",&x);
             printf("\nDigite o 2° valor: \n");
-             scanf("%d",&y);
+             scanf("%f",&y);
         }
         switch(opcao){
             case 1:
              printf("  ______________________________________");
-            printf("\n    O resultado de %d + %d = %d\n",x,y,x+y);
+            printf("\n    O resultado de %.1f + %.1f = %.1f\n",x,y,x+y);
              printf("  ______________________________________\n");
             break;
             case 2:
              printf("  ______________________________________");
-             printf("\n   O resultado de %d - %d = %d\n",x,y,x-y);
+             printf("\n   O resultado de %.1f - %.1f = %.1f\n",x,y,x-y);
               printf("  ______________________________________\n");
             break;
             case 3:
              printf("  ______________________________________");
-             printf("\n   O resultado de %d x %d = %d\n",x,y,x*y);
+             printf("\n   O resultado de %.1f x %.1f = %1.f\n",x,y,x*y);
               printf("  ______________________________________\n");
             break;
             case 4:
              printf("  ______________________________________");
-             printf("\n   O resultado de %d / %d = %d \n",x,y,x/y);
+             printf("\n   O resultado de %.1f / %1.f = %.2f \n",x,y,x/y);
              printf("  ______________________________________\n");
             break;
             case 0:
