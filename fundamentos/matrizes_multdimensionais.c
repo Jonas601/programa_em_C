@@ -54,7 +54,7 @@ int main() {
 return 0;
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-#include <stdio.h>
+##include <stdio.h>
 
 int main() {
     int prioridades[3][3]= {
@@ -62,10 +62,6 @@ int main() {
         {6,5,4},//impacto médio
         {9,8,7}//impacto baixo
     };
-    // Legendas das colunas e linhas
-    char urgencias[3][20] = {"baixa","média","alta"};
-    char impacto[3][20] = {"alta","média","baixa"};
-    
     //cabeçalho da tabela
     printf("\t\t\t\t\timpacto");
     printf("\nurgência\n");
