@@ -16,7 +16,7 @@ printf("\n");
 }
 return 0;
 }
-/////////separação
+/////////separação//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #include <stdio.h>
 
 int main() {
@@ -34,7 +34,7 @@ for(i = 0; i <2 ; i++){//definir,diminuir pelo valor de linhas  e incrementar
     printf("\n");//quebra de linha dentro do primeiro for
 }
 }
-/////////separação
+/////////separação///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #include <stdio.h>
 
@@ -52,4 +52,29 @@ int main() {
     printf("\n");
     }
 return 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+
+int main() {
+    int prioridades[3][3]= {
+        {3,2,1},//impacto alto
+        {6,5,4},//impacto médio
+        {9,8,7}//impacto baixo
+    };
+    // Legendas das colunas e linhas
+    char urgencias[3][20] = {"baixa","média","alta"};
+    char impacto[3][20] = {"alta","média","baixa"};
+    
+    //cabeçalho da tabela
+    printf("\t\t\t\t\timpacto");
+    printf("\nurgência\n");
+    for(int lin = 0;lin  < 3; lin++){
+        for(int col = 0; col < 3; col++){
+           printf("\t\t\t%d ",prioridades[lin][col]);  
+        }
+       printf("\n");
+    }
+    
+    return 0;
 }
