@@ -8,14 +8,19 @@ int main() {
                 {6, 7,8}
 };
      int linha, coluna, novoValor;
-     printf("Valores atuais da matriz2x3:\n");
-     for(int lin = 0; lin < 2; lin++) {
+     printf("\t\tperifericos de entrada\t");
+     printf("\t\tperifericos de entrada\t");
+     printf("\t\tperifericos de entrada\t");
+     printf("\t\tperifericos de entrada\t");
+     for(int lin = 0; lin < 4; lin++) {
          for(int col = 0; col < 3; col++) {
+             
      printf("%d ", matriz[lin][col]);
          }
 
 printf("\n");
      }
+     
 
     printf("\nInforme o número da linha (0 a 1):");
     scanf("%d", &linha);
@@ -30,7 +35,7 @@ printf("\n");
 
     printf("\nMatriz atualizada:\n");
 
-    for(int lin = 0; lin < 2; lin++) {
+    for(int lin = 0; lin < 4; lin++) {
         for(int col = 0; col < 3; col++) {
             printf("%d ", matriz[lin][col]);
         }
