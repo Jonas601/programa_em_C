@@ -74,3 +74,35 @@ int main() {
     
     return 0;
 }
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+
+int main() {
+    int matriz[2][2];
+    int soma = 0;
+    int multiplicacao = 1;
+
+    // Armazenamento da matriz
+    printf("Digite os valores para a matriz 2x2:\n");
+    for (int lin = 0; lin < 2; lin++) {
+        for (int col = 0; col < 2; col++) {
+            printf("Posição [%d][%d]: ", lin, col);
+            scanf("%d", &matriz[lin][col]);
+            getchar();
+        }
+    }
+
+    // Cálculo da soma e multiplicação: Observe que o mesmo bloco de FOR serve para fazer os cálculos
+    for (int lin = 0; lin < 2; lin++) {
+        for (int col = 0; col < 2; col++) {
+            soma += matriz[lin][col];
+            multiplicacao *= matriz[lin][col];
+        }
+    }
+
+    // Resultados
+    printf("\nSoma de todos os valores: %d\n", soma);
+    printf("Multiplicação de todos os valores: %d\n", multiplicacao);
+
+    return 0;
+}
