@@ -36,3 +36,21 @@ int idade;
 };
 //O que são Membros?
 //Coordenador ,Instrutor ,Aluno;
+
+/*Dados Heterogêneos - STRUCT
+
+Coordenador Instrutor Aluno
+Declaração
+
+struct Pessoa coordenador;
+struct Pessoa instrutor;
+struct Pessoa aluno;
+
+Referência aos campos
+coordenador.nome;
+coordenador.cpf;
+coordenador.idade;*/ 
+
+// para obter idade de um aluno seria 
+//aluno.idade;
+
