@@ -53,4 +53,33 @@ coordenador.idade;*/
 
 // para obter idade de um aluno seria 
 //aluno.idade;
+//coordenador.idade;
+//etc.
+/*
+nicialização de valores
+strcpy(coordenador.nome, “João Souza”);
+strcpy(coordenador.cpf, “888.888.888-00”);
+coordenador.idade = 45;
 
+nicialização de valores
+strcpy(coordenador.nome, “João Souza”);
+strcpy(coordenador.cpf, “888.888.888-00”);
+coordenador.idade = 45;*/
+
+/*exemplo
+inicialização de valores
+strcpy(coordenador.nome, “João Souza”);
+strcpy(coordenador.cpf, “888.888.888-00”);
+coordenador.idade = 45;
+
+int main() {
+//Declaração de um coordenador da struct Pessoa
+struct Pessoa coordenador;
+// Inicializando valores fixos
+strcpy(coordenador.nome, "Joao de Souza");
+strcpy(coordenador.cpf, "111.222.333-44");
+coordenador.idade = 45;
+// Exibição dos dados do Coordenador
+printf("::: Coordenador :::\n");
+printf("Nome: %s\nCPF: %s\nIdade: %d\n", coordenador.nome,
+coordenador.cpf, coordenador.idade);*/
