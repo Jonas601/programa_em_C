@@ -9,11 +9,11 @@
       float peso;
     };
     int main(){ ////area de preeencher dados
-        struct Animais pet[2];
+        struct Animais pet[2];//declara arrays é importante [x]
         int cont;
         printf("\t\t\t\t\t\t\t:::: Pet Shop Ouro Preto ::::\n"); 
         printf("\t\t\t\t\t\t Cadastre seu Pet Agora no nosso sistema\n");
-        
+        //sugestão : pode colocar um sistema de switch case para opção de quantos pets deseja cadastrar, pois nem todos tem 2 pets, pode colocar um menu com mais informações. 
         for(cont = 0 ; cont < 2 ; cont++){
      printf("\n===========================================================");
         printf("\nDigite o nome do seu %d° pet(apenas o primeiro ou completo): ",cont + 1);
@@ -38,7 +38,7 @@
           getchar();
          
         }
-        //wxibição de dados do pet
+        //exibição de dados do pet recebido pelo dono
         for (cont = 0 ; cont <2; cont++){
             printf("\n===========================================================\n");//separação de campos
             printf("\nDados do %d° animal cadastrados é:\n", cont + 1);
